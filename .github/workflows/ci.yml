@@ -18,8 +18,9 @@ jobs:
         python-version: "3.11"
 
     - name: Install dependencies
-      run: python --version
-      run: pip install -r requirements.txt
+      run: |
+        python --version
+        pip install -r requirements.txt
 
 
 
